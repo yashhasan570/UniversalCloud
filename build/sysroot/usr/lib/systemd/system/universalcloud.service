@@ -1,0 +1,13 @@
+[Unit]
+After=universalcloud-message-bus.service
+After=rclone.service
+Description=UniversalCloud Main Service
+
+[Service]
+ExecStart=/usr/bin/universalcloud -c /etc/universalcloud/universalcloud.conf
+PIDFile=/var/run/universalcloud/universalcloud.pid
+Restart=always
+Type=notify
+
+[Install]
+WantedBy=multi-user.target
