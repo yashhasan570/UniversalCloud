@@ -15,7 +15,7 @@ readonly CASA_SERVICE_LIB=/lib/systemd/system/universalcloud.service
 readonly CASA_SERVICE_ETC=/etc/systemd/system/universalcloud.service
 
 # Old Casa Files
-readonly CASA_PATH=/Universal Cloud
+readonly CASA_PATH=/casaOS
 readonly CASA_CONF_PATH_OLD=/etc/universalcloud.conf
 
 readonly aCOLOUR=(

@@ -95,8 +95,8 @@ Check_Exist() {
     ${sudo_cmd} rm -rf /usr/local/bin/${CASA_BIN}
     
     #Clean
-    if [[ -d "/Universal Cloud" ]]; then
-        ${sudo_cmd} rm -rf /Universal Cloud
+    if [[ -d "/casaOS" ]]; then
+        ${sudo_cmd} rm -rf /casaOS
     fi
     Show 0 "Clearance completed."    
 

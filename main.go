@@ -89,12 +89,12 @@ func init() {
 	//configfile.Install()
 }
 
-// @title Universal Cloud API
+// @title casaOS API
 // @version 1.0.0
 // @contact.name lauren.pan
 // @contact.url https://www.zimaboard.com
 // @contact.email lauren.pan@icewhale.org
-// @description Universal Cloud v1版本api
+// @description casaOS v1版本api
 // @host 192.168.2.217:8089
 // @securityDefinitions.apikey ApiKeyAuth
 // @in header

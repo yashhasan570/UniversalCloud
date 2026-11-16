@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# copy to /Universal Cloud/util/shell path
+# copy to /casaOS/util/shell path
 # chmod 755
 
 log="logger -t usb-mount.sh -s "
